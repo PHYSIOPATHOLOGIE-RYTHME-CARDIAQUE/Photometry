@@ -1,0 +1,119 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\pierre fontanaud\Documents\MATLAB\photometry_code_ver4\Photometry_ver6.prj" location="C:\Users\pierre fontanaud\Documents\MATLAB\photometry_code_ver4" name="Photometry_ver6" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Photometry_ver6</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email>pierre.fontanaud@igf.cnrs.fr</param.email>
+    <param.company>CNRS IGF</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\cnrs-1.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\CNRS IGF\Photometry_ver6\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Photometry_ver6\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Photometry_ver6\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\Photometry_ver6\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\Photometry_ver6</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Photometry_ver6.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\DeltaF.m</file>
+      <file>${PROJECT_ROOT}\FastPrint.m</file>
+      <file>${PROJECT_ROOT}\inputdlgcol.m</file>
+      <file>${PROJECT_ROOT}\RemoveArtifacts.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\airPLS.m</file>
+      <file>${PROJECT_ROOT}\Manual_Removal_Artifacts.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Photometry_ver6\for_testing" name="splash.png" optional="false">C:\Users\pierre fontanaud\Documents\MATLAB\photometry_code_ver4\Photometry_ver6\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\Photometry_ver6\for_testing" name="readme.txt" optional="true">C:\Users\pierre fontanaud\Documents\MATLAB\photometry_code_ver4\Photometry_ver6\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\Photometry_ver6\for_testing" name="Photometry_ver6.exe" optional="false">C:\Users\pierre fontanaud\Documents\MATLAB\photometry_code_ver4\Photometry_ver6\for_testing\Photometry_ver6.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
