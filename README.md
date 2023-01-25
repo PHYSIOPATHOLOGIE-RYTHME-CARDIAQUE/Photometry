@@ -11,8 +11,7 @@ This software read data from DORIC Neuroscience studio .A signal GCamp 465 nm an
 
 
 
-
-
+Trend Correction  GCamp and Isobestic
 
 ![trend_+Raw](https://user-images.githubusercontent.com/1101998/214312262-d60e3fcc-5a73-4d1d-8a07-8664d00d0368.jpg)
 
