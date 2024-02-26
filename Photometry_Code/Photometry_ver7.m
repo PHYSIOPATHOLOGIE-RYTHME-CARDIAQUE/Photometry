@@ -7,6 +7,7 @@
 % -is-it-possible-to-reshape-the-column-of-edit-boxes-in-inputdlg-such-that-the-questions-span-multiple
 %
 % artifacts removal : https://fr.mathworks.com/matlabcentral/answers/358022-how-to-remove-artifacts-from-a-signal
+% ajout des procedures de pmat pour detecter les spikes
 %******************************************************************************
 
 close all
